@@ -3,10 +3,10 @@ services:
   .catalog:
     minimum_rancher_version: v0.51.0
     name: "Spring Boot Twitters" # Name of the versioned template of the Catalog Entry
-    version: "v0.1-rancher2"# Version of the versioned template of the Catalog Entry
+    version: "v0.1-rancher2" # Version of the versioned template of the Catalog Entry
     description: "RESTful api" # Description of the versioned template of the Catalog Entry
-    uuid: "spring-boot0"# Unique identifier to be used for upgrades. Please see note.
-    minimum_rancher_version: v1.2 # The minimum version of Rancher that supports the template
+    uuid: "spring-boot0" # Unique identifier to be used for upgrades. Please see note.
+    #minimum_rancher_version: v1.2 # The minimum version of Rancher that supports the template
     questions:
       - variable: public_port
         description: "public port to access the spring twitters site"
