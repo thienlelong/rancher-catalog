@@ -2,5 +2,5 @@ name: SpringBootTwitters # Name of the Catalog Entry
 description: |
   Spring Boot Twitters Practice with Rancher
 version: v1.0-rancher2 # Version of the Catalog to be used
-category: Java # Category to be used for searching catalog entries
+category: Spring Boot # Category to be used for searching catalog entries
 maintainer: "Thien Le Long <thien.lelong@asnet.com.vn>" # The maintainer of the catalog entry

@@ -1,1 +1,1 @@
-### Spring Boot Twitters app
+### Spring Boot Twitters RESTfull API

@@ -1,0 +1,24 @@
+version: '2'
+services:
+  twitters-app:
+    image: thienlelong/spring-boot-twitter
+    stdin_open: true
+    tty: true
+    links:
+    - twitters-db:mysql
+    ports:
+    - ${public_port}:8080/tcp
+    labels:
+      io.rancher.container.pull_image: always
+
+  twitters-db:
+    image: mysql:5.6
+    environment:
+      MYSQL_DATABASE: twitters
+      MYSQL_PASSWORD: nopass
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: thienle
+    stdin_open: true
+    tty: true
+    labels:
+      io.rancher.container.pull_image: always
