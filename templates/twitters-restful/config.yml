@@ -1,4 +1,4 @@
-name: SpringBootTwitters # Name of the Catalog Entry
+name: TwittersRESTful # Name of the Catalog Entry
 description: |
   Spring Boot Twitters Practice with Rancher
 version: v1.0-rancher2 # Version of the Catalog to be used
